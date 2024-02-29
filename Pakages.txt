@@ -1,0 +1,18 @@
+Python Version: 3.8.10 or more
+
+Required Packages:
+- Flask==2.0.1
+- langchain_community==1.0.0
+- langchain==1.0.0
+
+Instructions:
+1. Install Python 3.8.10 or higher.
+2. Install required packages using pip:
+   pip install Flask==2.0.1 langchain_community==1.0.0 langchain==1.0.0
+3. Set the environment variable HUGGINGFACEHUB_API_TOKEN with the access token:
+   export HUGGINGFACEHUB_API_TOKEN=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
+
+Code Execution:
+# Assuming the file name is `app.py`
+# Navigate to the directory containing the file and execute the following commands:
+python app.py add
